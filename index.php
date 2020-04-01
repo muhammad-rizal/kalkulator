@@ -8,8 +8,8 @@
   if($pilih){
    if($bil1 == "" || $bil2 == ""){
     ?> <script>alert("Nilai nya belum diisi!"); </script> <?php
-   }elseif($pilih == '-'){
-    $hasil = $bil1 - $bil2;
+   }elseif($pilih == '/'){
+    $hasil = $bil1 / $bil2;
    }
   }
  }
@@ -38,7 +38,7 @@
 				<tr>
 					<td align="center">
 						<select name="pilih" style="width: 100px">
-						  <option value="-">-</option>
+						  <option value="/">/</option>
 						</select>
 					</td>
 					<td> : </td>
