@@ -10,12 +10,6 @@
     ?> <script>alert("Nilai nya belum diisi!"); </script> <?php
    }elseif($pilih == '+'){
     $hasil = $bil1 + $bil2;
-   }elseif($pilih == '-'){
-    $hasil = $bil1 - $bil2;
-   }elseif($pilih == '*'){
-    $hasil = $bil1 * $bil2;
-   }elseif($pilih == '/'){
-    $hasil = $bil1 / $bil2;
    }
   }
  }
@@ -45,9 +39,6 @@
 					<td align="center">
 						<select name="pilih" style="width: 100px">
 						  <option value="+">+</option>
-						  <option value="-">-</option>
-						  <option value="*">X</option>
-						  <option value="/">/</option>
 						</select>
 					</td>
 					<td> : </td>
